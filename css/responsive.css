@@ -1,0 +1,190 @@
+/* Estilos del chatbot */
+
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  #chatbot-ball {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #chatbot-window {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 300px;
+    max-height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* ... Estilos adicionales ... */
+  
+  
+
+  #chatbot-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #chatbot-header span {
+    font-weight: bold;
+  }
+  
+  #chatbot-body {
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  #chatbot-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #message-input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  #send-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Estilos del chatbot */
+
+/* ... Código CSS anterior ... */
+
+#chatbot-messages {
+    margin-bottom: 10px;
+  }
+  
+  .chatbot-message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* ... Código CSS anterior ... */
+  
+  
+
+
+
+body{
+  background-color: #333;
+}
+
+
+.mapita{
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+  .opinions-section {
+    max-width: 500px;
+    margin: 65px auto;
+    padding: 43px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .opinions-section h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .opinions-section {
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    input,
+    textarea {
+      padding: 4px;
+      
+    }
+    .mapita{
+      align-items: center;
+      padding: 30px;
+    }
+    button {
+      padding: 8px;
+    }
+  }
+  
+  
+
+  
